@@ -175,25 +175,34 @@ import { useState, useEffect } from "react";
 //   )
 // }
 
-export default function App() {
+// export default function App() {
 
-  const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
+//   const [password, setPassword] = useState("");
+//   const [message, setMessage] = useState("");
 
-  useEffect(() => {
-    if (password === "") {
-      setMessage(`Inserisci una password`)
-    } else if (password.length < 6) {
-      setMessage(`Password troppo corta`)
-    } else{
-      setMessage(`Password accettata`)
-    };
-  }, [password])
+//   useEffect(() => {
+//     if (password === "") {
+//       setMessage(`Inserisci una password`)
+//     } else if (password.length < 6) {
+//       setMessage(`Password troppo corta`)
+//     } else{
+//       setMessage(`Password accettata`)
+//     };
+//   }, [password])
+
+//   return (
+//     <form className="container">
+//       <input style={{ padding: 20 }} type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Scegli la password" />
+//       <p>{message}</p>
+//     </form>
+//   )
+// }
+
+export default App(){
 
   return (
-    <form className="container">
-      <input style={{ padding: 20 }} type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Scegli la password" />
-      <p>{message}</p>
-    </form>
+    <>
+      <h1>Prova git add</h1>
+    </>
   )
-}
+};
