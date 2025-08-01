@@ -197,12 +197,3 @@ import { useState, useEffect } from "react";
 //     </form>
 //   )
 // }
-
-export default App(){
-
-  return (
-    <>
-      <h1>Prova git add</h1>
-    </>
-  )
-};
